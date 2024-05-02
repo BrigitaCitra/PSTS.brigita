@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/Logo-Pesat.png" type="image/x-icon">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+      .section1-2 {
+        margin-top: 190px;
+        text-align: center;
+      }
+      .ilustration-1 {
+        height: 400px;
+      }
+      .ilustration-3 {
+        height: 250px;
+      }
+      .section-bg-custom {
+        background-color: #e4efff;
+        display: grid;
+      }
+      .nav-tabs {
+        --bs-nav-tabs-border-color: #fff;
+        --bs-nav-tabs-link-active-border-color: #fff #fff #000;
+      }
+      .link-tab-title {
+        font: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .02em;
+        line-height: 1.688rem;
+        margin-bottom: 0.4rem;
+      }
+      .link-tab-desc {
+        font-size: 1rem;
+        letter-spacing: .005em;
+        line-height: 1.5rem;
+        margin-bottom: 0.8rem;
+      }
+      .icon-quote {
+        font-size: 6em;
+        color: #4f96ff;
+        margin-left: -16px;
+      }
+      .quote {
+        margin-top: -20px;
+        margin-right: 100px;
+        color: #717b8a;
+        font-size: 1.75rem;
+        letter-spacing: .02em;
+        line-height: 2.875rem;
+      }
+      .picture-tab-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .02em;
+        line-height: 1.688rem;
+        color: #686868;
+      }
+      .picture-tab-desc {
+        font-size: 1rem;
+        letter-spacing: .005em;
+        line-height: 1.5rem;
+        color: #686868;
+      }
+      .social-icon {
+        font-size: 30px;
+      }
+      .social-icon:hover {
+        color: #ffffffff !important;
+      }
+      .menu-footer {
+        display: block;
+        text-decoration: none;
+        color: rgba(255,193,7,0.70);
+      }
+      .menu-footer:hover {
+        color: rgba(255,193,7,1) !important;
+      }
+      .bg-banner {
+        background: url(Library.jpg);
+        background-size: cover;
+      }
+      .bg-section {
+        background: linear-gradient(45deg,#F8C794, #B0926A, #F8C794 );
+      }
+
+      @media only screen and (max-width: 600px) {
+        .section1-1 {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+        }
+        .section1-2 {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+        .section5-1 {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+        .ilustration-1 {
+          height: 300px;
+        }
+        .ilustration-2 {
+          width: 240px;
+          margin-bottom: 20px;
+        } 
+        .ilustration-3 {
+          height: 200px;
+          margin-bottom: 20px;
+        }
+        #footer-copyright {
+          text-align: center;
+        }
+        #footer-powered {
+          text-align: center !important;
+        }
+      }
+    </style>
+</head>
+<body>
+<div class="container-fluid p-0">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://smapluspgri.sch.id" target="_blank">
+          Read Astray
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registration</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Publish books</a></li>
+                <li><a class="dropdown-item" href="#">Tranlate books</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">more</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search books" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</div>
+<main class="container-fluid" style="margin-top: auto;">
+  <section class="row bg-banner text-white py-5">
+    <div class="col-sm-12 order-md-last">
+      <div class="section1-2">
+        <img src="images/White bookshelf.png" alt="ilustration-1" class="ilustration-1">
+        <h1 class="mb-4">Wanna publish your work?</h1>
+        <button class="btn btn-lg btn-light mt-4">contact</button>
+      </div> 
+    </div>
+  </section>
+  <section class="row bg-section py-5">
+    <div class="col text-center" data-aos="fade-up">
+      <h1>Our latest work</h1>
+      <div class="row justify-content-center">
+        <div class="col-sm-5">
+          <p class="lead">
+            <small>beberapa hasil kerja sama terbaru kami dengan beberapa penulis & komikus.</small>
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-3">
+          <div class="card" data-aos="fade-up">
+            <div class="card-body" style="text-align: left;">
+              <h5>Run Into fantasy</h5>
+              <small class="text-muted">novel yang ditulis oleh Cleland Ayuers</small>
+              <div class="my-4">
+                <div class="badge bg-primary">on progress</div>
+              </div>
+              <div class="text-center my-4">
+                <button class="btn btn-outline-warning">Read more</button>
+              </div>
+              <div class="text-muted">More</div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                  </div>
+                  <div class="p-2">service</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-x-circle-fill" style="color: #e20000;"></i>
+                  </div>
+                  <div class="p-2">terms&condition</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <hr>
+              <div class="text-center">
+                <button class="btn btn-primary">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" data-aos="fade-up">
+            <div class="card-body" style="text-align: left;">
+              <h5>Shadow</h5>
+              <small class="text-muted">novel yang ditulis oleh Faradita.</small>
+              <div class="my-4">
+                <div class="badge bg-success">Complete</div>
+              </div>
+              <div class="text-center my-4">
+                <button class="btn btn-outline-warning">read more</button>
+              </div>
+              <div class="text-muted">More</div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-x-circle-fill" style="color: #e20000;"></i>
+                  </div>
+                  <div class="p-2">terms&condition</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <hr>
+              <div class="text-center">
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3" data-aos="fade-up">
+          <div class="card border-warning">
+            <div class="card-header">Best seller</div>
+            <div class="card-body" style="text-align: left;">
+              <h5>Yakumo</h5>
+              <small class="text-muted">Hasil karya Manabu Kaminaga yang kami translate ke bahasa indonesia.</small>
+              <div class="my-4">
+                <div class="badge bg-success">Complete</div>
+              </div>
+              <div class="text-center my-4">
+                <button class="btn btn-outline-warning">Read more</button>
+              </div>
+              <div class="text-muted">More</div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                  </div>
+                  <div class="p-2">Writer biograph</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                  </div>
+                  <div class="p-2">service</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-x-circle-fill" style="color: #e20000;"></i>
+                  </div>
+                  <div class="p-2">terms&condition</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
+              <hr>
+              <div class="text-center">
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section class="row bg-section justify-content-center py-5">
+    <div class="col-sm-8" data-aos="fade-right">
+      <h1 class="mb-5 text-center">Cooperation with the writers</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Cleland Ayuers
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Cleland Ayuers</strong> adalah nama pena dari seorang penulis terkenal dari Indonesia yang kebanyakan 
+              dari karya tulisnya memiliki genre Sci-fi dan Fantasy. salah satu karyanya yang terkenal adalah buku RIF, Run Into Fantasy.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Faradita
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Dia Faradita</strong> Banyak yang belum tahu dia anak Borneo, Kalimantan Selatan. Dia juga cadel dan cinta mati sama bakso.
+              Bercita-cita punya kafe sendiri dan bisa pergi ke korea. Dia penakut tapi hobi nonton horor. Dia cengeng tapi ga bisa marah lama. Dia pendiam, padahal suka protes. 
+              Dia hanyalah penulis dari sekian banyak yang mencoba membagi kebahagiaan lewat cerita, buat kamu.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Janice Chrysilla
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Janice Chrysilla</strong> Adalah mahasiswa jurusan psikologi dan menejemen di National University of Singapore. 
+              Setelah meraih beasiswa yang menuntunnya ke singapura pada tahun 2011, ia masih menghabiskan sebagian besar waktunya mengejar mimpi di negara tersebut. 
+              Sesekali, ia kembali ke tanah air untuk melepas rindu dengan orang-orang terdekat dan budaya yang membesarkannya. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Plutus
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Plutus is best known for being the author of Beware of the Brothers! (Novel), 
+                Harley Takes the House, Who Made Me a Princess (Novel), and Who Made Me a Princess.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+              Jang-namu
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             writer of The Little Princess and Her Monster Prince. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="container-fluid py-2 bg-black text-warning">
+  <div class="row justify-content-center my-5">
+    <div class="col-sm-10">
+      <div class="row">
+          <div class="col-sm-6 mb-8">
+            <div class="mb-10 text-center">
+              <img src="images/White bookshelf.png" alt="logo pesat" width="40px" class="d-inline-block">Read Astray
+            </div>
+            <p class="mb-3">kita akan membantu memfasilitasi para penulis baru dan mempubikasikan karya-karya mereka yang mengagumkan.</p>
+            <p class="mb-3">pertanyaan dan kritik akan kami terima jika melalui email dan no Whatsapp dibawah ini.</p>
+            <p class="mb-1">Email: <a href="mailto:brigitacitra5@gmail.com">brigitacitra5@gmail.com</a></p>
+            <p class="mb-3">Whatsapp: <a href="https://wa.me/+6281513067745" target="_blank">081513067745</a></p>
+            <div class="d-flex flex-row mb-2">
+              <a href="https://www.Instagram.com" class="text-warning social-icon mx-4" target="_blank">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://twitter.com" class="text-warning social-icon" target="_blank">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <div class="d-flex flex-row">
+              <a href="https://www.tiktok.com" class="text-warning social-icon mx-4" target="_blank">
+                <i class="bi bi-tiktok"></i>
+              </a>
+              <a href="https://www.youtube.com" class="text-warning social-icon" target="_blank">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-5 text-center">
+            <div class="mb-5"><strong>About us</strong></div>
+            <div class="mb-5">
+              <a href="#" class="menu-footer">Conatct</a>
+              <a href="#" class="menu-footer">Resource</a>
+              <a href="#" class="menu-footer">Privacy Policy</a>
+              <a href="#" class="menu-footer">more</a>
+            </div>
+      </div>
+      <hr style="border-width: 5px;">
+      <div class="row justify-content-between">
+        <div class="col-sm-6" id="footer-copyright">Copyright &copy; 2023 PESAT</div>
+        <div class="col-sm-6 text-end" id="footer-powered">Powered by Studentday Web Design</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
+<script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
