@@ -17,7 +17,7 @@
         text-align: center;
       }
       .ilustration-1 {
-        height: 400px;
+        height: 300px;
       }
       .ilustration-3 {
         height: 250px;
@@ -84,11 +84,21 @@
         color: rgba(255,193,7,1) !important;
       }
       .bg-banner {
-        background: url(Library.jpg);
+        background: url(light\ academia\ aesthetic\ _\ background.jpg);
         background-size: cover;
       }
       .bg-section {
         background: linear-gradient(45deg,#F8C794, #B0926A, #F8C794 );
+      }
+      .cvr-book {
+        height: 400px;
+      }
+      .cvr-books {
+          height: 250px;
+      }
+      .text {
+        margin-top: 200px;
+        margin-left: 200px;
       }
 
       @media only screen and (max-width: 600px) {
@@ -107,7 +117,7 @@
           padding-right: 30px;
         }
         .ilustration-1 {
-          height: 300px;
+          height: 200px;
         }
         .ilustration-2 {
           width: 240px;
@@ -116,6 +126,15 @@
         .ilustration-3 {
           height: 200px;
           margin-bottom: 20px;
+        }
+        .cvr-book {
+          height: 400px;
+        }
+        .cvr-books {
+          height: 300px;
+        }
+        .row {
+          
         }
         #footer-copyright {
           text-align: center;
@@ -152,7 +171,21 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Publish books</a></li>
-                <li><a class="dropdown-item" href="#">Tranlate books</a></li>
+                <li><a class="dropdown-item" href="#">Translate books</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">more</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Community
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Booktok</a></li>
+                <li><a class="dropdown-item" href="#">Books Cafe</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -168,16 +201,18 @@
       </div>
     </nav>
 </div>
+<rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <main class="container-fluid" style="margin-top: auto;">
   <section class="row bg-banner text-white py-5">
     <div class="col-sm-12 order-md-last">
       <div class="section1-2">
-        <img src="images/White bookshelf.png" alt="ilustration-1" class="ilustration-1">
+        <img src="images/bookshelf_.png" alt="ilustration-1" class="ilustration-1 animate__animated animate__bounce">
         <h1 class="mb-4">Wanna publish your work?</h1>
-        <button class="btn btn-lg btn-light mt-4">contact</button>
+        <button class="btn btn-lg btn-light mt-4">Publish here!</button>
       </div> 
     </div>
   </section>
+</rel>
   <section class="row bg-section py-5">
     <div class="col text-center" data-aos="fade-up">
       <h1>Our latest work</h1>
@@ -197,6 +232,7 @@
               <div class="my-4">
                 <div class="badge bg-primary">on progress</div>
               </div>
+              <img src="images/cover RIF.png" alt="cvr-book" class="cvr-book">
               <div class="text-center my-4">
                 <button class="btn btn-outline-warning">Read more</button>
               </div>
@@ -242,10 +278,24 @@
               <div class="my-4">
                 <div class="badge bg-success">Complete</div>
               </div>
+              <img src="images/shadow-Faradita.jpg" alt="cvr-books" class="cvr-books">
               <div class="text-center my-4">
-                <button class="btn btn-outline-warning">read more</button>
+                <button class="btn btn-outline-warning">Read more</button>
               </div>
               <div class="text-muted">More</div>
+              <div class="d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row">
+                  <div class="p-2">
+                    <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                  </div>
+                  <div class="p-2">service</div>
+                </div>
+                <div class="p-2">
+                  <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Popover">
+                    <i class="bi-question-circle-fill"></i>
+                  </span>
+                </div>
+              </div>
               <div class="d-flex flex-row justify-content-between">
                 <div class="d-flex flex-row">
                   <div class="p-2">
@@ -275,6 +325,7 @@
               <div class="my-4">
                 <div class="badge bg-success">Complete</div>
               </div>
+              <img src="images/Yakumo Saitou.jpg" alt="cvr-book" class="cvr-book">
               <div class="text-center my-4">
                 <button class="btn btn-outline-warning">Read more</button>
               </div>
@@ -328,7 +379,7 @@
   </section>
   <section class="row bg-section justify-content-center py-5">
     <div class="col-sm-8" data-aos="fade-right">
-      <h1 class="mb-5 text-center">Cooperation with the writers</h1>
+      <h1 class="mb-5 text-center">Colaboration with the writers</h1>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item mb-3">
           <h2 class="accordion-header">
@@ -337,10 +388,13 @@
               Cleland Ayuers
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="text-align: left;">
             <div class="accordion-body">
-              <strong>Cleland Ayuers</strong> adalah nama pena dari seorang penulis terkenal dari Indonesia yang kebanyakan 
-              dari karya tulisnya memiliki genre Sci-fi dan Fantasy. salah satu karyanya yang terkenal adalah buku RIF, Run Into Fantasy.
+              <section class="row">
+                <div class="col-sm-6"><img src="images/Writers/Cleland-removebg-preview.png" style="width: 100%;"> </div>
+                <div class="col-sm-6 align-content-center"><strong>Cleland Ayuers</strong> adalah nama pena dari seorang penulis terkenal dari Indonesia yang kebanyakan 
+                  dari karya tulisnya memiliki genre Sci-fi dan Fantasy. salah satu karyanya yang terkenal adalah buku RIF, Run Into Fantasy. </div>
+              </section>
             </div>
           </div>
         </div>
@@ -353,9 +407,12 @@
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>Dia Faradita</strong> Banyak yang belum tahu dia anak Borneo, Kalimantan Selatan. Dia juga cadel dan cinta mati sama bakso.
-              Bercita-cita punya kafe sendiri dan bisa pergi ke korea. Dia penakut tapi hobi nonton horor. Dia cengeng tapi ga bisa marah lama. Dia pendiam, padahal suka protes. 
-              Dia hanyalah penulis dari sekian banyak yang mencoba membagi kebahagiaan lewat cerita, buat kamu.
+              <section class="row">
+                <div class="col-sm-4"><img src="images/Writers/Faradita-rmv.bg.png" style="width: 100%;" alt=""> </div>
+                <div class="col-sm-4 align-content-center"><strong>Dia Faradita</strong> Banyak yang belum tahu dia anak Borneo, Kalimantan Selatan.
+                  Bercita-cita punya kafe sendiri dan bisa pergi ke korea. Dia penakut tapi hobi nonton horor. Dia cengeng tapi ga bisa marah lama. 
+                  Dia hanyalah penulis dari sekian banyak yang mencoba membagi kebahagiaan lewat cerita, buat kamu. </div>
+              </section>
             </div>
           </div>
         </div>
@@ -368,9 +425,12 @@
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>Janice Chrysilla</strong> Adalah mahasiswa jurusan psikologi dan menejemen di National University of Singapore. 
-              Setelah meraih beasiswa yang menuntunnya ke singapura pada tahun 2011, ia masih menghabiskan sebagian besar waktunya mengejar mimpi di negara tersebut. 
-              Sesekali, ia kembali ke tanah air untuk melepas rindu dengan orang-orang terdekat dan budaya yang membesarkannya. 
+              <section class="row">
+                <div class="col-sm-4"><img src="images/Writers/Janice-rmv.bg.png" style="width: 100%;" alt=""> </div>
+                <div class="col-sm-4 align-content-center"><strong>Janice Chrysilla</strong> Adalah mahasiswa jurusan psikologi dan menejemen di National University of Singapore. 
+                  Setelah meraih beasiswa yang menuntunnya ke singapura pada tahun 2011, ia masih menghabiskan sebagian besar waktunya mengejar mimpi di negara tersebut. 
+                  Sesekali, ia kembali ke tanah air untuk melepas rindu dengan orang-orang terdekat dan budaya yang membesarkannya.  </div>
+              </section>
             </div>
           </div>
         </div>
@@ -383,8 +443,11 @@
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                Plutus is best known for being the author of Beware of the Brothers! (Novel), 
-                Harley Takes the House, Who Made Me a Princess (Novel), and Who Made Me a Princess.
+              <section class="row">
+                <div class="col-sm-4"><img src="images/Writers/Plutus-rmv.bg.png" style="width: 100%;" alt=""> </div>
+                <div class="col-sm-4 align-content-center"> Plutus is best known for being the author of Beware of the Brothers! (Novel), 
+                  Harley Takes the House, Who Made Me a Princess (Novel), and Who Made Me a Princess. </div>
+              </section>
             </div>
           </div>
         </div>
@@ -397,7 +460,10 @@
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-             writer of The Little Princess and Her Monster Prince. 
+              <section class="row">
+                <div class="col-sm-4"><img src="images/Writers/Jang namu-rmv.bg.png" style="width: 100%;" alt=""> </div>
+                <div class="col-sm-4 align-content-center"> writer of The Little Princess and Her Monster Prince.  </div>
+              </section>
             </div>
           </div>
         </div>
@@ -409,9 +475,9 @@
   <div class="row justify-content-center my-5">
     <div class="col-sm-10">
       <div class="row">
-          <div class="col-sm-6 mb-8">
-            <div class="mb-10 text-center">
-              <img src="images/White bookshelf.png" alt="logo pesat" width="40px" class="d-inline-block">Read Astray
+          <div class="col-sm-6 mb-10">
+            <div class="mb-10 text-align">
+              <img src="images/White bookshelf.png" alt="logo pesat" width="40px" class="d-inline-block animate__animated animate__bounce">Read Astray
             </div>
             <p class="mb-3">kita akan membantu memfasilitasi para penulis baru dan mempubikasikan karya-karya mereka yang mengagumkan.</p>
             <p class="mb-3">pertanyaan dan kritik akan kami terima jika melalui email dan no Whatsapp dibawah ini.</p>
@@ -435,12 +501,15 @@
             </div>
           </div>
           <div class="col-sm-5 text-center">
-            <div class="mb-5"><strong>About us</strong></div>
-            <div class="mb-5">
+            <div class="mb-3"><strong>About us</strong></div>
+            <div class="mb-3">
               <a href="#" class="menu-footer">Conatct</a>
-              <a href="#" class="menu-footer">Resource</a>
+            </div>
+            <div class="mb-3">
+              <a href="#" class="menu-footer">Costumer service</a>
+            </div>
+            <div class="mb-3">
               <a href="#" class="menu-footer">Privacy Policy</a>
-              <a href="#" class="menu-footer">more</a>
             </div>
       </div>
       <hr style="border-width: 5px;">
